@@ -5,7 +5,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      articles: null
+      articles: null,
     };
     this.isColor = this.isColor.bind(this);
     this.draw = this.draw.bind(this);
@@ -57,7 +57,7 @@ class App extends React.Component {
     var numberOfLineBreaks = (input.match(/\n/g) || []).length;
     if (numberOfLineBreaks > 0) {
       var arr_input = input.split("\n");
-      for (value of arr_input) {
+      for (var value of arr_input) {
         this.draw(value);
       }
     } else {
