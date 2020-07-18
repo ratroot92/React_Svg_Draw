@@ -2,7 +2,7 @@
 
 Created with CodeSandbox  
 
-Prerequites 
+## Project Prerequites 
 
 You should have node installled on your system 
 
